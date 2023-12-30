@@ -9,10 +9,10 @@
 /shaderpacks/
 /logs/
 /fancymenu_data/
-minecraftinstance.json
-.qmenu_opened.marker
-o_prof
-options.txt
-usercache.json
-usernamecache.json
-knownkeys.txt
+/minecraftinstance.json
+/.qmenu_opened.marker
+/o_prof
+/options.txt
+/usercache.json
+/usernamecache.json
+/knownkeys.txt
