@@ -35,6 +35,18 @@
           "clipboard": false
         }
       }
+    },
+    "7": {
+      "title": "Resistance",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:coal_block\"}"
+      },
+      "action": {
+        "command": {
+          "command": "effect give @p minecraft:resistance 99999 255",
+          "clipboard": false
+        }
+      }
     }
   }
 }

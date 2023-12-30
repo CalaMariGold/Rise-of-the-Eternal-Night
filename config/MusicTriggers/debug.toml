@@ -1,5 +1,5 @@
 # Show the debug info
-SHOW_DEBUG = false
+SHOW_DEBUG = true
 
 # If SHOW_DEBUG is set to true, but you only want to see the song name
 CURRENT_SONG_ONLY = false
@@ -14,7 +14,7 @@ ENCODING_QUALITY = 10
 RESAMPLING_QUALITY = "HIGH"
 
 # The lowest level of logging (DEBUG/INFO/WARN/ERROR/FATAL) to include in the GUI log visualizer
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "DEBUG"
 
 # The maximum number of elements that will be rendered in the GUI when hovering over something that lists things out
 MAX_HOVER_ELEMENTS = 15
