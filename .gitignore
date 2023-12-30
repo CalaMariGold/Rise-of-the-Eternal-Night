@@ -1,0 +1,14 @@
+
+.curseclient
+/.physics_mod_cache/
+/crash-reports/
+/lightspeed-cache/
+/modernfix/
+/saves/
+/screenshots/
+/shaderpacks/
+.qmenu_opened.marker
+o_prof
+options.txt
+usercache.json
+usernamecache.json

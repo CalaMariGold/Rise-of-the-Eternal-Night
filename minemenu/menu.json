@@ -1,0 +1,40 @@
+{
+  "main": {
+    "1": {
+      "title": "Spectator",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:dark_oak_sapling\"}"
+      },
+      "action": {
+        "command": {
+          "command": "gamemode spectator",
+          "clipboard": false
+        }
+      }
+    },
+    "2": {
+      "title": "Survival",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:grass_block\"}"
+      },
+      "action": {
+        "command": {
+          "command": "gamemode survival",
+          "clipboard": false
+        }
+      }
+    },
+    "3": {
+      "title": "Creative",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:amethyst_block\"}"
+      },
+      "action": {
+        "command": {
+          "command": "gamemode creative",
+          "clipboard": false
+        }
+      }
+    }
+  }
+}

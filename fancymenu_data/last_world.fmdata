@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = D:/Minecraft (Java)/Instances/1.19.2 modapck/saves/New World (31)
+}
+

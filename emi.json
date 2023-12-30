@@ -1,0 +1,42 @@
+{
+  "favorites": [
+    {
+      "stack": "item:minecraft:torch"
+    }
+  ],
+  "lookup_history": [
+    "item:minecraft:dirt",
+    "item:minecraft:glowstone",
+    "item:minecraft:oak_boat",
+    "item:minecraft:bucket",
+    "item:minecraft:water_bucket",
+    "item:minecraft:torch",
+    "item:realmrpg_creep:creeping_sprout",
+    "item:minecraft:wooden_axe{Damage:0}",
+    "item:immersive_weathering:permafrost",
+    "item:quark:black_corundum_cluster",
+    "item:quark:white_corundum_cluster",
+    {
+      "type": "item",
+      "id": "quark:indigo_corundum_cluster",
+      "amount": 3
+    },
+    "item:minecraft:netherite_sword{Damage:0}"
+  ],
+  "craft_history": [
+    "minecraft:wooden_axe",
+    "quark:tweaks/crafting/utility/tools/stone_sword",
+    "minecraft:iron_pickaxe",
+    "quark:tweaks/crafting/utility/tools/stone_axe",
+    "minecraft:bread",
+    "quark:tweaks/crafting/utility/tools/stone_pickaxe",
+    "minecraft:wooden_pickaxe"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
