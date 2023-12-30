@@ -7,6 +7,9 @@
 /saves/
 /screenshots/
 /shaderpacks/
+/logs/
+/fancymenu_data/
+minecraftinstance.json
 .qmenu_opened.marker
 o_prof
 options.txt
