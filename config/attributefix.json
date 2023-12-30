@@ -11,22 +11,22 @@
         "value": 1024
       }
     },
-    "forge:step_height_addition": {
+    "sortilege:generic.staff_pierce": {
       "enabled": false,
       "min": {
-        "default": -512,
-        "value": -512
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 512,
         "value": 512
       }
     },
-    "sortilege:generic.staff_pierce": {
+    "forge:step_height_addition": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": -512,
+        "value": -512
       },
       "max": {
         "default": 512,
