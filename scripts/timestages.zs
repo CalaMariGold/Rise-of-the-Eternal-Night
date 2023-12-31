@@ -28,7 +28,7 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClick
 
 // Increase the speed of day time by 0.55 each day after the first boss dies
 // night1 gamestage is gained via achievement
-val dayLengths = [1200, 1143, 1091, 1043, 1000, 960, 923, 889, 857, 828, 800, 774, 750, 727, 706, 686, 667, 649, 632, 615] as int[];
+val dayLengths = [0, 1200, 1143, 1091, 1043, 1000, 960, 923, 889, 857, 828, 800, 774, 750, 727, 706, 686, 667, 649, 632, 615] as int[];
 for i, dayLength in dayLengths {
     var totalCycleLength as int = dayLength + 1200; // Day length + 20 min (1200s) night length
     var uniqueID = "UniqueID" + (i + 1);
