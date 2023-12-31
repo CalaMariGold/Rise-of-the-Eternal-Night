@@ -1,0 +1,39 @@
+{
+	"parent":"roten:root",
+	"display":{
+		"icon":{
+			"item":"minecraft:rotten_flesh"
+		},
+		"title":"Kill first boss",
+		"description":"Kill first boss",
+		"frame":"task",
+		"show_toast":true,
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"rewards":{
+		"function":"roten:killedfirstboss"
+	},
+	"criteria":{
+		"first_boss":{
+			"trigger":"minecraft:player_killed_entity",
+			"conditions":{
+				"entity":[{
+					"condition":"minecraft:entity_properties",
+					"predicate":{
+						"type":"minecraft:zombie",
+						"flags":{
+							"is_baby":false
+						}
+					},
+					"entity":"this"
+				}]
+			}
+		}
+	},
+	"requirements":[
+		[
+			"first_boss"
+		]
+	]
+}
