@@ -93,7 +93,7 @@
 	Sound = false
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
-	"Breaker Chance" = 0.3
+	"Breaker Chance" = 0.0
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 120
@@ -124,10 +124,10 @@
 	"Difficulty Steal AI" = 0.0
 	#Chance for mobs to be able to summon an aquatic mount
 	#Range: 0.0 ~ 1.0
-	"Guardian Chance" = 1.0
+	"Guardian Chance" = 0.0
 	#Chance for mobs to be able to summon a flying mount
 	#Range: 0.0 ~ 1.0
-	"Phantom Chance" = 0.5
+	"Phantom Chance" = 0.0
 
 #Configs regarding mobs spawning with equipment
 [equipment]

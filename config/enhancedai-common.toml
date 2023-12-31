@@ -13,7 +13,7 @@
 
 [Zombies]
 	#Let zombies use ender pearls. Either put ender pearls in main or off hand and when far enough from the player they will throw it.
-	"Enable Pearler Zombie" = true
+	"Enable Pearler Zombie" = false
 	#Zombies can mine blocks to reach the target. Uses offhand item to mine
 	"Enable Digger Zombie" = true
 	#Let zombies use Fishing Rods, reeling players in. Either put a Fishing Rod in main or off hand and when near enough from the player they will throw it.
@@ -41,16 +41,16 @@
 	[Zombies."Digger Zombie"]
 		#Chance for a Zombie to spawn with the digger ability
 		#Range: 0.0 ~ 1.0
-		"Digger Chance" = 0.07
+		"Digger Chance" = 0.33
 		#Zombies with Digger AI will mine only if they have any tool in the off-hand
-		"Digger Tool Only" = false
+		"Digger Tool Only" = true
 		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
-		"Digger Proper Tool Only" = false
+		"Digger Proper Tool Only" = true
 		#Zombies with Digger AI will spawn with a Wooden Pickaxe.
 		"Equip Wooden Pick" = true
 		#The maximum Y coordinate at which Zombies can mine.
 		#Range: -64 ~ 320
-		"Max Y Dig" = 64
+		"Max Y Dig" = 320
 		#The maximum distance from the target at which the zombie can mine. Set to 0 to always mine.
 		#Range: 0 ~ 128
 		"Max Distance" = 0
@@ -181,7 +181,7 @@
 
 [Villagers]
 	#Make villagers fight back
-	"Enable Villager Attacking" = true
+	"Enable Villager Attacking" = false
 
 	#Make villagers fight back
 	[Villagers."Villager Attacking"]
@@ -218,7 +218,7 @@
 		"Destroy Web After" = 100
 		#Damage when the projectiles hits a mob. The damage is set for normal difficulty. Hard difficulty gets +50% damage and Easy gets (-50% + 1) damage.
 		#Range: 0.0 ~ 128.0
-		"Web Damage" = 5.0
+		"Web Damage" = 0.0
 		#If true entities will get webbed when hit.
 		"Always web" = false
 		#If true cave spiders' thrown web will poison entities hit like when they hit the entity melee.
@@ -294,7 +294,7 @@
 			#Range: 1.0 ~ 64.0
 			Minimum = 24.0
 			#Range: 1.0 ~ 64.0
-			Maximum = 32.0
+			Maximum = 28.0
 
 		#Entities that will not get affected by this feature
 		[Skeletons."Skeleton Shoot"."Entity Blacklist"]
@@ -361,7 +361,7 @@
 
 [Endermen]
 	#Endermen teleport the player near him when can't reach him for a while.
-	"Enable [Experimental] Get Over Here" = false
+	"Enable [Experimental] Get Over Here" = true
 	#NOT YET IMPLEMENTED. Endermen will make the player's item fall from his hands.
 	"Enable Item Disruption" = false
 
@@ -369,7 +369,7 @@
 	[Endermen."[Experimental] Get Over Here"]
 		#Chance for a enderman to get the Get Over Here AI
 		#Range: 0.0 ~ 1.0
-		"Get Over Here Chance" = 0.15
+		"Get Over Here Chance" = 1.0
 
 [Drowneds]
 	#Makes drowned swim speed based off swim speed attribute instead of movement speed.
@@ -398,7 +398,7 @@
 		"Walking Fuse Chance" = 0.1
 		#Percentage chance for a Creeper to ignore walls while targeting a player. This means that a creeper will be able to explode if it's in the correct range from a player even if there's a wall between.
 		#Range: 0.0 ~ 1.0
-		"Ignore Walls Chance" = 0.1
+		"Ignore Walls Chance" = 0.0
 		#Launching creepers will try ignite and throw themselves at the player.
 		#Range: 0.0 ~ 1.0
 		"Launch Chance" = 0.05
@@ -411,7 +411,7 @@
 		[Creepers."Creeper Swell".Cena]
 			#AND HIS NAME IS ...
 			#Range: 0.0 ~ 1.0
-			Chance = 0.02
+			Chance = 0.0
 			#If true, Creeper Cena explosion will generate fire
 			"Generates fire" = false
 			#Explosion power of Creeper Cena
@@ -515,9 +515,9 @@
 	#Makes mobs be able to move in more ways, like climbing or swim.
 	[Base.Movement]
 		#If true, mobs will be able to climb (up and down)
-		"Allow Climbing" = false
+		"Allow Climbing" = true
 		#If true, mobs try to find climbable blocks to reach the target
-		"Target Ladders" = false
+		"Target Ladders" = true
 		#How faster mobs can swim. Setting to 0 will leave the swim speed as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
 		#Range: 0.0 ~ 4.0
 		"Swim Speed Multiplier" = 2.5
@@ -536,7 +536,7 @@
 			#Range: 0.0 ~ 128.0
 			Minimum = 32.0
 			#Range: 0.0 ~ 128.0
-			Maximum = 64.0
+			Maximum = 48.0
 
 		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'.
 		[Base.Targeting."XRay Range Override"]

@@ -6,98 +6,6 @@
     "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
   ],
   "MAINHAND": {
-    "aether:candy_cane_sword": [
-      1362,
-      -2.896
-    ],
-    "aether:flaming_sword": [
-      1107,
-      -0.856
-    ],
-    "aether:gravitite_axe": [
-      693,
-      2.456
-    ],
-    "aether:gravitite_sword": [
-      789,
-      1.688
-    ],
-    "aether:hammer_of_kingbdogz": [
-      1225,
-      -1.8
-    ],
-    "aether:holy_sword": [
-      1107,
-      -0.856
-    ],
-    "aether:holystone_axe": [
-      1122,
-      -0.976
-    ],
-    "aether:holystone_sword": [
-      1298,
-      -2.384
-    ],
-    "aether:lightning_sword": [
-      1107,
-      -0.856
-    ],
-    "aether:phoenix_bow": [
-      1108,
-      0.0
-    ],
-    "aether:pig_slayer": [
-      1240,
-      -1.92
-    ],
-    "aether:skyroot_axe": [
-      1240,
-      -1.92
-    ],
-    "aether:skyroot_sword": [
-      1354,
-      -2.832
-    ],
-    "aether:valkyrie_axe": [
-      693,
-      2.456
-    ],
-    "aether:valkyrie_lance": [
-      789,
-      1.688
-    ],
-    "aether:vampire_blade": [
-      648,
-      2.816
-    ],
-    "aether:zanite_axe": [
-      1087,
-      -0.696
-    ],
-    "aether:zanite_sword": [
-      1225,
-      -1.8
-    ],
-    "aether_redux:infused_veridium_axe": [
-      1177,
-      -1.416
-    ],
-    "aether_redux:infused_veridium_sword": [
-      1147,
-      -1.176
-    ],
-    "aether_redux:subzero_crossbow": [
-      1000,
-      0.0
-    ],
-    "aether_redux:veridium_axe": [
-      1177,
-      -1.416
-    ],
-    "aether_redux:veridium_sword": [
-      1147,
-      -1.176
-    ],
     "alexsmobs:skelewag_sword": [
       1226,
       -1.808
@@ -105,6 +13,70 @@
     "alexsmobs:tendon_whip": [
       1225,
       -1.8
+    ],
+    "born_in_chaos_v1:dark_ritual_dagger": [
+      1048,
+      -0.384
+    ],
+    "born_in_chaos_v1:darkwarblade": [
+      1,
+      14.816
+    ],
+    "born_in_chaos_v1:great_reaper_axe": [
+      598,
+      3.216
+    ],
+    "born_in_chaos_v1:intoxicating_dagger": [
+      790,
+      1.68
+    ],
+    "born_in_chaos_v1:nightmare_scythe": [
+      898,
+      0.816
+    ],
+    "born_in_chaos_v1:sharpened_dark_metal_sword": [
+      748,
+      2.016
+    ],
+    "born_in_chaos_v1:shell_mace": [
+      1062,
+      -0.496
+    ],
+    "born_in_chaos_v1:skullbreaker_hammer": [
+      240,
+      6.08
+    ],
+    "born_in_chaos_v1:soul_cutlass": [
+      1090,
+      -0.72
+    ],
+    "born_in_chaos_v1:soulbane": [
+      88,
+      7.296
+    ],
+    "born_in_chaos_v1:spiritual_sword": [
+      888,
+      0.896
+    ],
+    "born_in_chaos_v1:supreme_measure": [
+      1,
+      67432.945
+    ],
+    "cataclysm:athame": [
+      1263,
+      -2.104
+    ],
+    "cataclysm:final_fractal": [
+      1,
+      15.592
+    ],
+    "cataclysm:khopesh": [
+      1328,
+      -2.624
+    ],
+    "cataclysm:zweiender": [
+      1,
+      15.592
     ],
     "immersive_weathering:ice_sickle": [
       1257,
@@ -234,13 +206,9 @@
       485,
       4.12
     ],
-    "realmrpg_creep:pumpkin_axe": [
-      1101,
-      -0.808
-    ],
-    "realmrpg_creep:pumpkin_sword": [
-      1247,
-      -1.976
+    "mutantmore:blazing_scimitar": [
+      1159,
+      -1.272
     ]
   },
   "OFFHAND": {
@@ -259,37 +227,41 @@
     "minecraft:shield": [
       1350,
       0.0
+    ],
+    "mutantmore:mutant_shulker_shield": [
+      1350,
+      0.0
+    ],
+    "shieldexp:diamond_shield": [
+      1350,
+      0.0
+    ],
+    "shieldexp:golden_shield": [
+      1350,
+      0.0
+    ],
+    "shieldexp:griefer_shield": [
+      1350,
+      0.0
+    ],
+    "shieldexp:iron_shield": [
+      1350,
+      0.0
+    ],
+    "shieldexp:netherite_shield": [
+      1350,
+      0.0
+    ],
+    "shieldexp:paragon_shield": [
+      1350,
+      0.0
+    ],
+    "shieldexp:wooden_shield": [
+      1350,
+      0.0
     ]
   },
   "FEET": {
-    "aether:gravitite_boots": [
-      48,
-      7.616
-    ],
-    "aether:neptune_boots": [
-      737,
-      2.104
-    ],
-    "aether:obsidian_boots": [
-      1,
-      8.52
-    ],
-    "aether:phoenix_boots": [
-      48,
-      7.616
-    ],
-    "aether:sentry_boots": [
-      750,
-      2.0
-    ],
-    "aether:valkyrie_boots": [
-      48,
-      7.616
-    ],
-    "aether:zanite_boots": [
-      750,
-      2.0
-    ],
     "alexsmobs:flying_fish_boots": [
       1298,
       -2.384
@@ -297,6 +269,18 @@
     "alexsmobs:roadrunner_boots": [
       737,
       2.104
+    ],
+    "born_in_chaos_v1:dark_metal_armor_boots": [
+      1,
+      15.808
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_boots": [
+      1,
+      8.088
+    ],
+    "cataclysm:ignitium_boots": [
+      1,
+      17.568
     ],
     "minecraft:chainmail_boots": [
       1098,
@@ -326,36 +310,12 @@
       1,
       13.272
     ],
-    "realmrpg_creep:pumpkin_armor_boots": [
-      762,
-      1.904
+    "mutantmore:mutant_wither_skeleton_boots": [
+      950,
+      0.4
     ]
   },
   "LEGS": {
-    "aether:gravitite_leggings": [
-      48,
-      7.616
-    ],
-    "aether:neptune_leggings": [
-      737,
-      2.104
-    ],
-    "aether:obsidian_leggings": [
-      1,
-      8.52
-    ],
-    "aether:phoenix_leggings": [
-      48,
-      7.616
-    ],
-    "aether:valkyrie_leggings": [
-      48,
-      7.616
-    ],
-    "aether:zanite_leggings": [
-      750,
-      2.0
-    ],
     "alexsmobs:centipede_leggings": [
       1,
       13.328
@@ -363,6 +323,18 @@
     "alexsmobs:emu_leggings": [
       520,
       3.84
+    ],
+    "born_in_chaos_v1:dark_metal_armor_leggings": [
+      1,
+      15.808
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_leggings": [
+      1,
+      8.088
+    ],
+    "cataclysm:ignitium_leggings": [
+      1,
+      17.568
     ],
     "minecraft:chainmail_leggings": [
       1098,
@@ -392,36 +364,12 @@
       1,
       13.272
     ],
-    "realmrpg_creep:pumpkin_armor_leggings": [
-      762,
-      1.904
+    "mutantmore:mutant_wither_skeleton_leggings": [
+      950,
+      0.4
     ]
   },
   "CHEST": {
-    "aether:gravitite_chestplate": [
-      48,
-      7.616
-    ],
-    "aether:neptune_chestplate": [
-      737,
-      2.104
-    ],
-    "aether:obsidian_chestplate": [
-      1,
-      8.52
-    ],
-    "aether:phoenix_chestplate": [
-      48,
-      7.616
-    ],
-    "aether:valkyrie_chestplate": [
-      48,
-      7.616
-    ],
-    "aether:zanite_chestplate": [
-      750,
-      2.0
-    ],
     "alexsmobs:crocodile_chestplate": [
       194,
       6.448
@@ -437,6 +385,30 @@
     "alexsmobs:unsettling_kimono": [
       900,
       0.8
+    ],
+    "born_in_chaos_v1:dark_metal_armor_chestplate": [
+      1,
+      15.808
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate": [
+      1,
+      8.088
+    ],
+    "born_in_chaos_v1:spiny_shell_armor_chestplate": [
+      811,
+      1.512
+    ],
+    "cataclysm:bloom_stone_pauldrons": [
+      1,
+      8.496
+    ],
+    "cataclysm:ignitium_chestplate": [
+      1,
+      17.568
+    ],
+    "cataclysm:ignitium_elytra_chestplate": [
+      1,
+      17.568
     ],
     "minecraft:chainmail_chestplate": [
       1098,
@@ -466,40 +438,16 @@
       1,
       13.272
     ],
+    "mutantmore:mutant_wither_skeleton_chestplate": [
+      950,
+      0.4
+    ],
     "quark:backpack": [
       1356,
       -2.848
-    ],
-    "realmrpg_creep:pumpkin_armor_chestplate": [
-      762,
-      1.904
     ]
   },
   "HEAD": {
-    "aether:gravitite_helmet": [
-      48,
-      7.616
-    ],
-    "aether:neptune_helmet": [
-      737,
-      2.104
-    ],
-    "aether:obsidian_helmet": [
-      1,
-      8.52
-    ],
-    "aether:phoenix_helmet": [
-      48,
-      7.616
-    ],
-    "aether:valkyrie_helmet": [
-      48,
-      7.616
-    ],
-    "aether:zanite_helmet": [
-      750,
-      2.0
-    ],
     "alexsmobs:fedora": [
       1099,
       -0.792
@@ -527,6 +475,26 @@
     "alexsmobs:spiked_turtle_shell": [
       443,
       4.456
+    ],
+    "born_in_chaos_v1:dark_metal_armor_helmet": [
+      1,
+      15.808
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_helmet": [
+      1,
+      8.088
+    ],
+    "born_in_chaos_v1:spiny_shell_armor_helmet": [
+      811,
+      1.512
+    ],
+    "cataclysm:ignitium_helmet": [
+      1,
+      17.568
+    ],
+    "cataclysm:monstrous_helm": [
+      361,
+      5.112
     ],
     "immersive_weathering:flower_crown": [
       1379,
@@ -568,13 +536,13 @@
       1,
       13.272
     ],
+    "mutantmore:mutant_wither_skeleton_skull": [
+      950,
+      0.4
+    ],
     "quark:forgotten_hat": [
       1356,
       -2.848
-    ],
-    "realmrpg_creep:pumpkin_armor_helmet": [
-      762,
-      1.904
     ],
     "sortilege:witch_hat": [
       1271,
