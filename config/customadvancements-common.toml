@@ -1,0 +1,33 @@
+
+["Config for Custom Advancements"]
+	#Whether the mod should send a chat message if an update is available
+	warnMessage = false
+	#Whether the mod should remove all advancements
+	noAdvancements = false
+	#Whether the mod should remove all recipe advancements
+	noRecipeAdvancements = false
+	#Blacklist of Advancements that should be removed by the mod
+	advancementsBlacklist = []
+	#Whether the Blacklist of Advancements should be a Whitelist
+	blacklistIsWhitelist = false
+	#Changing this to true causes each advancement to only be achievable if it's parent has been achieved. Useful for progression systems!
+	advancementProgression = false
+	#A list of connected advancements in the format of parent -> child
+	connectedAdvancementsList = ["minecraft:story/follow_ender_eye -> minecraft:end/root", "minecraft:story/form_obsidian -> minecraft:nether/root"]
+	#Whether all advancement progress should be reset when the player dies
+	resetAdvancementProgressOnDeath = false
+	#The Advancements that are affected by the progression system
+	#Allowed Values: ALL, MODS, MINECRAFT, CUSTOM_ADVANCEMENTS
+	advancementProgressionMode = "ALL"
+	#Blacklist of Mods that should not be affected by the advancement progression system
+	modBlacklist = []
+	#Whether the Blacklist of Mods that should not be affected by the advancement progression system should be a Whitelist
+	modBlacklistIsWhitelist = false
+	#In which order the advancement tabs in the advancement screen should be ordered
+	#Allowed Values: ALPHABETICALLY, DEFINED_LIST, UNSORTED
+	advancementTabSortingMode = "UNSORTED"
+	#Order of the advancement tabs when DEFINED_LIST is selected
+	advancementSortingList = []
+	#Whether the mod should overwrite vanilla advancements with generated ones
+	disableStandardAdvancementLoad = false
+
