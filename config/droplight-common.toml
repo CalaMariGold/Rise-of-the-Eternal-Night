@@ -20,7 +20,7 @@
 	syncWithItemBorders = true
 	# The height of the beam of light.
 	#Range: 0.0 ~ 25.0
-	beamHeight = 12.0
+	beamHeight = 1.0
 	# The graphical quality of beams and sparkles.  Higher quality means potentially lower performance.  Use low quality if experiencing compatibility issues with other mods.
 	#Allowed Values: LOW, MEDIUM, HIGH
 	quality = "HIGH"
