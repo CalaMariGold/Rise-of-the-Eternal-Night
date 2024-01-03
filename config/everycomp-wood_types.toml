@@ -9,9 +9,6 @@
 			ancient = true
 			blossom = true
 
-		[types.wood_type.born_in_chaos_v1]
-			scorched = true
-
 		[types.wood_type.cataclysm]
 			chorus = true
 
@@ -38,67 +35,6 @@
 			birch = true
 			azalea = true
 			acacia = true
-
-		[types.leaves_type.dtterralith]
-			spruce_twiglet = true
-			spruce_tall_conifer = true
-			spruce_sparse = true
-			spruce_short_conifer = true
-			spruce_round = true
-			spruce_poplar = true
-			spruce_moonlight = true
-			spruce_bush = true
-			oak_yellow_conifer = true
-			oak_twilight = true
-			oak_twiglet = true
-			oak_tall_conifer = true
-			oak_sparse = true
-			oak_scruffy_tall_conifer = true
-			oak_scruffy = true
-			oak_kapok = true
-			oak_conifer = true
-			jungle_windswept = true
-			jungle_sparse = true
-			jungle_sakura = true
-			jungle_jacaranda = true
-			flowering_azalea_oasis = true
-			flowering_azalea_mahogany = true
-			flowering_azalea_canopy = true
-			dark_oak_wide = true
-			dark_oak_sakura_bush = true
-			dark_oak_sakura = true
-			dark_oak_red_maple = true
-			dark_oak_red_conifer = true
-			dark_oak_red_azalea = true
-			dark_oak_orange_conifer = true
-			dark_oak_maple = true
-			dark_oak_jacaranda = true
-			dark_oak_canopy_mirage = true
-			dark_oak_canopy = true
-			dark_oak_blue_conifer = true
-			dark_oak_ancient_mirage = true
-			dark_oak_ancient = true
-			birch_windswept = true
-			birch_twilight = true
-			birch_sparse = true
-			birch_short_conifer = true
-			birch_scruffy_conifer = true
-			birch_scruffy = true
-			birch_poplar = true
-			birch_conifer = true
-			azalea_oasis = true
-			azalea_mahogany = true
-			azalea_ebony = true
-			azalea_canopy = true
-			acacia_windswept = true
-			acacia_twiglet = true
-			acacia_sparse = true
-			acacia_poplar = true
-			acacia_kapok = true
-			acacia_deciduous = true
-			acacia_conifer = true
-			acacia_bush = true
-			acacia_amethyst = true
 
 		[types.leaves_type.dtquark]
 			serene_blossom = true
