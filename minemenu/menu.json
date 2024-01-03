@@ -43,7 +43,19 @@
       },
       "action": {
         "command": {
-          "command": "effect give @p minecraft:resistance 99999 255",
+          "command": "effect give @p minecraft:resistance 99999 255 true",
+          "clipboard": false
+        }
+      }
+    },
+    "8": {
+      "title": "Nightvision",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:raw_gold_block\"}"
+      },
+      "action": {
+        "command": {
+          "command": "effect give @p night_vision 9999 255 true",
           "clipboard": false
         }
       }
