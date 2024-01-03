@@ -5,18 +5,14 @@ import crafttweaker.api.world.ServerLevel;
 import crafttweaker.api.events.CTEventManager;
 import mods.gamestages.events.GameStageAdded;
 
-
+/*
 CTEventManager.register<crafttweaker.api.event.entity.player.interact.RightClickBlockEvent>((event) => {
     if event.player.level.isClientSide() {
         return;
     }
     var world = event.player.level as ServerLevel;
     var server = world.server;
-    server.executeCommand("say ------------------------", false);
-    server.executeCommand("say night1: " + event.player.hasGameStage("night1"), false);
-    server.executeCommand("say night2: " + event.player.hasGameStage("night2"), false);
-    server.executeCommand("say night3: " + event.player.hasGameStage("night3"), false);
-});
+});*/
 
 
 // if player has night1 gamestage (killed first boss)
