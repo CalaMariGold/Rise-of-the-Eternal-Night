@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:dirt"
+      },
+      "title":{
+        "translate":"customadvancements.advancements.example_example.title"
+      },
+      "description":{
+        "translate":"customadvancements.advancements.example_example.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "customadvancements:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:dirt"
+            }
+          ]
+        }
+      }
+    }
+  }
