@@ -12,6 +12,9 @@
 		[types.wood_type.cataclysm]
 			chorus = true
 
+		[types.wood_type.born_in_chaos_v1]
+			scorched = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.quark]
