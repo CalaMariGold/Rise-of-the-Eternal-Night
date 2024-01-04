@@ -46,7 +46,7 @@
 	/**
 	 * Where to display status effects in the inventory.
 	 */
-	effect-location: top;
+	effect-location: left;
 
 	/**
 	 * Whether to display a gray overlay when hovering over a stack.
@@ -83,7 +83,7 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: true;
+	center-search-bar: false;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -146,7 +146,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: favorites, lookup-history, craft-history;
 
 	/**
 	 * The subpanels in the left sidebar
