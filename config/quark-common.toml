@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
@@ -35,7 +35,7 @@
 	#Set to false to stop quark from adding its own advancements
 	"Enable Quark Advancements" = true
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = true
+	"Enable Onboarding" = false
 	#Set to false to disable the behavior where quark will automatically hide any disabled items
 	"Hide Disabled Content" = true
 	#Set to false to disable Quark's item info when viewing recipe/uses for an item in JEI
@@ -158,7 +158,7 @@
 		"Change Names" = true
 
 	[building.compressed_blocks]
-		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
+		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = false
 		#Allowed values: [0,)
 		"Charcoal Block Fuel Time" = 16000
 		#Allowed values: [0,)
@@ -532,7 +532,7 @@
 		"Pike Range" = 5.0
 
 [tweaks]
-	"Gold Tools Have Fortune" = true
+	"Gold Tools Have Fortune" = false
 	"Automatic Recipe Unlock" = true
 	"Utility Recipes" = true
 	"Poison Potato Usage" = true
@@ -553,7 +553,7 @@
 	"Double Door Opening" = true
 	"Zombie Villagers On Normal" = true
 	"Hoe Harvesting" = true
-	Emotes = true
+	Emotes = false
 	"Slimes To Magma Cubes" = true
 	"Snow Golem Player Heads" = true
 	"Vexes Die With Their Masters" = true
@@ -717,7 +717,7 @@
 		#If `petAllMobs` is set, these mobs still can't be pet
 		"Pettable Denylist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:armor_stand"]
 		#Even if `petAllMobs` is not set, these mobs can be pet
-		"Pettable Allowlist" = []
+		"Pettable Allowlist" = ["crittersandcompanions:ferret", "crittersandcompanions:otter"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
@@ -1548,7 +1548,7 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
@@ -1782,7 +1782,7 @@
 		"Enchantments To Register" = []
 
 [oddities]
-	Pipes = true
+	Pipes = false
 	Backpack = true
 	"Tiny Potato" = true
 	"Matrix Enchanting" = true
@@ -1832,7 +1832,7 @@
 		#At which piece count the calculation for the min level should default to increasing one per piece rather than using the scale factor
 		"Min Level Cutoff" = 8
 		#How many pieces a single Lapis can generate
-		"Charge Per Lapis" = 4
+		"Charge Per Lapis" = 1
 		#How much the min level requirement for adding a new piece should increase for each piece added (up until the value of Min Level Cutoff)
 		"Min Level Scale Factor" = 1.2
 		#How much the min level requirement for adding a new piece to a book should increase per each bookshelf being used
@@ -1878,7 +1878,7 @@
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
 		"Dark Souls Mode" = true
 		#Totem will always spawn if the player killer is himself.
-		"Spawn Totem on PVP Kill" = false
+		"Spawn Totem on PVP Kill" = true
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
