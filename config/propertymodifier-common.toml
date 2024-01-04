@@ -8,21 +8,21 @@
 #Generates a config with all non-default values in propertymodifier-generated.toml.
 [generating]
 	#Generates item group-related entries.
-	item_groups = false
+	item_groups = true
 	#Generates block state-related entries.
-	block_states = false
+	block_states = true
 	#Generates block-related entries.
-	blocks = false
+	blocks = true
 	#Generates item-related entries.
-	items = false
+	items = true
 	#Generates armor-related entries.
-	armor = false
+	armor = true
 	#Generates tool-related entries.
-	tools = false
+	tools = true
 	#Generates enchantment-related entries.
-	enchantments = false
+	enchantments = true
 	#Generates composting-related entries.
-	composting = false
+	composting = true
 	#The default enchantment value used. 0 in vanilla, but mods such as Apotheosis may change this.
 	#Range: 0 ~ 1000000
 	default_enchantment_value = 0
