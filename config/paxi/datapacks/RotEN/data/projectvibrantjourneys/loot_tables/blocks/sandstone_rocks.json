@@ -1,0 +1,15 @@
+{
+    "type": "projectvibrantjourneys:sandstone_rocks",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "projectvibrantjourneys:sandstone_rocks"
+          }
+        ]
+      }
+    ]
+  }
+  

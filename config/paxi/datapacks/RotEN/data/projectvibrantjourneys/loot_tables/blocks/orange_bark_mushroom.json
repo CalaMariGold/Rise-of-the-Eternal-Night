@@ -1,0 +1,15 @@
+{
+    "type": "projectvibrantjourneys:orange_bark_mushroom",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "projectvibrantjourneys:orange_bark_mushroom"
+          }
+        ]
+      }
+    ]
+  }
+  

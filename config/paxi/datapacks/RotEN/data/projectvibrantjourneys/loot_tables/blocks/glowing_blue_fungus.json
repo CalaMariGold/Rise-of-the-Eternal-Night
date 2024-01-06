@@ -1,0 +1,15 @@
+{
+    "type": "projectvibrantjourneys:glowing_blue_fungus",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "projectvibrantjourneys:glowing_blue_fungus"
+          }
+        ]
+      }
+    ]
+  }
+  

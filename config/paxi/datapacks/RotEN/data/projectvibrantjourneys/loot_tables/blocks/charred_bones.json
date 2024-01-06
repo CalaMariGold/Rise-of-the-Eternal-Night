@@ -1,0 +1,15 @@
+{
+    "type": "projectvibrantjourneys:charred_bones",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "projectvibrantjourneys:charred_bones"
+          }
+        ]
+      }
+    ]
+  }
+  

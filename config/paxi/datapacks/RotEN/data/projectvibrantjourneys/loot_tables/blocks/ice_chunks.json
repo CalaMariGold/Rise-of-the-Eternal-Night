@@ -1,0 +1,15 @@
+{
+    "type": "projectvibrantjourneys:ice_chunks",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "projectvibrantjourneys:ice_chunks"
+          }
+        ]
+      }
+    ]
+  }
+  
