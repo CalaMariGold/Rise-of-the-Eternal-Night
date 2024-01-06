@@ -41,9 +41,9 @@
 	[Zombies."Digger Zombie"]
 		#Chance for a Zombie to spawn with the digger ability
 		#Range: 0.0 ~ 1.0
-		"Digger Chance" = 0.33
+		"Digger Chance" = 1.0
 		#Zombies with Digger AI will mine only if they have any tool in the off-hand
-		"Digger Tool Only" = true
+		"Digger Tool Only" = false
 		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
 		"Digger Proper Tool Only" = true
 		#Zombies with Digger AI will spawn with a Wooden Pickaxe.
@@ -166,7 +166,7 @@
 		"Healing Chance" = 0.05
 		#Below this percentage health, witches will drink strong healing potions instead of normal ones.
 		#Range: 0.0 ~ 1.0
-		"Strong healing Threshold" = 0.4
+		"Strong healing Threshold" = 0.3
 		#Chance for a witch to drink a water breathing potion when in water and air meter is at half. Vanilla is 15% and doesn't check the air meter.
 		#Range: 0.0 ~ 1.0
 		"Water Breathing Chance" = 1.0
@@ -284,7 +284,7 @@
 		"Strafe chance" = 0.333
 		#How much inaccuracy does the arrow fired by skeletons have. Vanilla skeletons have 10/6/2 inaccuracy in easy/normal/hard difficulty.
 		#Range: 0.0 ~ 30.0
-		"Arrow Inaccuracy" = 2.0
+		"Arrow Inaccuracy" = 3.0
 		#Chance for a Skeleton to spawn as a spammer, which spams arrows instead of fully charging the bow
 		#Range: 0.0 ~ 1.0
 		"Spammer chance" = 0.07
@@ -292,9 +292,9 @@
 		#The range from where a skeleton will shoot a player
 		[Skeletons."Skeleton Shoot"."Shooting Range"]
 			#Range: 1.0 ~ 64.0
-			Minimum = 24.0
+			Minimum = 16.0
 			#Range: 1.0 ~ 64.0
-			Maximum = 28.0
+			Maximum = 24.0
 
 		#Entities that will not get affected by this feature
 		[Skeletons."Skeleton Shoot"."Entity Blacklist"]
@@ -361,7 +361,7 @@
 
 [Endermen]
 	#Endermen teleport the player near him when can't reach him for a while.
-	"Enable [Experimental] Get Over Here" = true
+	"Enable [Experimental] Get Over Here" = false
 	#NOT YET IMPLEMENTED. Endermen will make the player's item fall from his hands.
 	"Enable Item Disruption" = false
 
@@ -534,16 +534,16 @@
 		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting 'Max' to 0 will leave the follow range as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
 		[Base.Targeting."Follow Range Override"]
 			#Range: 0.0 ~ 128.0
-			Minimum = 32.0
+			Minimum = 16.0
 			#Range: 0.0 ~ 128.0
-			Maximum = 48.0
+			Maximum = 28.0
 
 		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'.
 		[Base.Targeting."XRay Range Override"]
 			#Range: 0.0 ~ 128.0
-			Minimum = 16.0
+			Minimum = 8.0
 			#Range: 0.0 ~ 128.0
-			Maximum = 32.0
+			Maximum = 10.0
 
 		#Entities in here will not be affected by this feature.
 		[Base.Targeting."Entity Blacklist"]
