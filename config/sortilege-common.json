@@ -73,15 +73,15 @@
   "death": {
     // Enable a balanced keepInventory only for experience
     "xp_keeping": {
-      "enable": true,
+      "enable": false,
       // Should players killed by players drop their xp or give it to their assassin directly
-      "allow_stealing_from_players": true,
+      "allow_stealing_from_players": false,
       // Ratio of xp kept on death
-      "self_ratio": 0.3,
+      "self_ratio": 0.0,
       // Ratio of xp stolen by the attacker, and dropped back when it's killed
-      "attacker_ratio": 0.6,
+      "attacker_ratio": 0.0,
       // Ratio of xp dropped on the ground on death
-      "drop_ratio": 0.1
+      "drop_ratio": 0.0
     },
     // Display death coordinates instead of the score from vanilla on the death screen
     "show_coordinates_on_death": true
