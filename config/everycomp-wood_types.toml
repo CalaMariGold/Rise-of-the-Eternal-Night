@@ -82,6 +82,7 @@
 			glass_door = true
 			stable_door = true
 			modern_door = true
+			waffle_door = true
 
 		[entries.wood_type.mcwfences]
 			horse_fence = true
